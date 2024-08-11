@@ -8,8 +8,8 @@
 """
 
 def anagrama(palabra1, palabra2):
-    palabra1 = list(palabra1.lower())
-    palabra2 = list(palabra2.lower())
+    palabra1 = palabra1.lower()
+    palabra2 = palabra2.lower()
 
     if palabra1 == palabra2:
         return False
